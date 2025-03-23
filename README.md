@@ -23,12 +23,17 @@ estradiol-simulator
 ├── static
 │   ├── css
 │   │   └── styles.css
+│   ├── favicon
+│   │   ├── favicon.ico, +variations
+│   │   └── site.webmanifest
 │   └── js
 │       └── app.js
 ├── templates
 │   └── index.html
-├── requirements.txt
-└── README.md
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ## Installation
