@@ -1,0 +1,9 @@
+FastAPI
+uvicorn
+numpy
+plotly
+ipywidgets
+weasyprint
+pandas
+aiofiles
+jinja2

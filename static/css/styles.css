@@ -1,0 +1,183 @@
+body {
+    font-family: 'Noto Sans', 'Arial', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: 'wdth' 100;
+    background-color: #020202;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #110d1d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
+    border: 1px solid #281f3f;
+}
+
+.parameters {
+    margin-bottom: 20px;
+}
+
+.parameter-label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="number"],
+.form-select,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #3d2856;
+    border-radius: 4px;
+    background-color: #06030c;
+    color: #ffffff;
+}
+
+button {
+    background-color: #3d2856;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #4e346a;
+    box-shadow: 0 0 12px rgba(138, 43, 226, 0.6);
+}
+
+.plot-container {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
+}
+
+#plot {
+    width: 100%;
+    height: 580px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #a595c9;
+}
+
+/* Focus styles for form elements */
+input:focus, select:focus {
+    outline: none;
+    border-color: #3d2856;
+    box-shadow: 0 0 8px rgba(138, 43, 226, 0.5);
+}
+
+.card {
+    background-color: #110d1d;
+    border: 1px solid #281f3f;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.2);
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.card-body {
+    background-color: #110d1d;
+}
+
+.card-title {
+    color: #ffffff;
+    border-bottom: 1px solid #281f3f;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    color: #ffffff;
+}
+
+.form-control {
+    background-color: #06030c;
+    border: 1px solid #3d2856;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #06030c;
+    border-color: #3d2856;
+    box-shadow: 0 0 8px rgba(138, 43, 226, 0.5);
+    color: #ffffff;
+}
+
+.form-select {
+    background-color: #06030c;
+    border: 1px solid #3d2856;
+    color: #ffffff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+}
+
+.form-check-label {
+    color: #ffffff;
+}
+
+.form-check-input {
+    background-color: #06030c;
+    border: 1px solid #3d2856;
+}
+
+.form-check-input:checked {
+    background-color: #3d2856;
+    border-color: #3d2856;
+}
+
+.text-success {
+    color: #8aff8a !important;
+}
+
+.text-info {
+    color: #8ae2ff !important;
+}
+
+.lead {
+    color: #a595c9;
+}
+
+/* Bootstrap buttons override */
+.btn {
+    background-color: #3d2856;
+    border: none;
+    color: white;
+    box-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4e346a;
+    color: white;
+    box-shadow: 0 0 12px rgba(138, 43, 226, 0.6);
+}
+
+/* Fix for dropdown arrow in select elements */
+select option {
+    background-color: #06030c;
+    color: #ffffff;
+}
